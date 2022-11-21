@@ -17,6 +17,14 @@ body {
   background-color: var(--section-backgraund-color);
 }
 
+.logo--color-dark {
+  color: var(--title-text-color);
+}
+
+.logo--color-light {
+  color: var(--section-backgraund-color);
+}
+
 p,
 h1,
 h2,
@@ -420,7 +428,6 @@ html {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 
 .logo__accent {
@@ -959,7 +966,6 @@ address {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--section-backgraund-color);
 }
 
 .current {
