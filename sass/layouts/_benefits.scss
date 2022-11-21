@@ -1,18 +1,18 @@
 .card__list {
   display: block;
 }
-.card__list__item {
+.card__item {
   display: flex;
   flex-wrap: wrap;
 }
-.card__list__wrap {
+.card__wrap {
   width: 270px;
   margin-right: 30px;
 }
-.card__list__item .card__list__wrap:nth-child(4n) {
+.card__item .card__wrap:nth-child(4n) {
   margin-right: 0px;
 }
-.card__list__subtitle {
+.card__subtitle {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -21,7 +21,7 @@
   text-transform: uppercase;
   color: var(--caption-text-color);
 }
-.card__list__text {
+.card__text {
   margin-top: 0px;
   margin-bottom: 0px;
 
@@ -30,7 +30,7 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.card__list__icon {
+.card__icon {
   width: 270px;
   height: 120px;
   background-color: var(--filter-bg-color);
